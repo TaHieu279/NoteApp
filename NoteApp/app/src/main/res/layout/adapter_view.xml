@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_item_note_add"
+        android:background="@color/ColorBlueWhite"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgNoteAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="12dp"
+            android:id="@+id/txtTitleNoteAdapter"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="@string/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="48dp"/>
+
+        <TextView
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="5dp"
+            android:id="@+id/txtContentNoteAdapter"
+            android:textColor="#505050"
+            android:textSize="18sp"
+            android:text="@string/content_of_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="textEnd"
+            android:layout_marginEnd="12dp"
+            android:id="@+id/txtDateNoteAdapter"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:text="@string/dd_mm_yyyy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

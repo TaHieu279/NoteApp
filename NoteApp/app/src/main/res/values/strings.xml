@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="menu">Menu</string>
+    <string name="title_app">Note App</string>
+    <string name="change_list">Change List</string>
+    <string name="back_press">Back Press</string>
+    <string name="camera">Camera</string>
+    <string name="save">Save</string>
+    <string name="gallery">Gallery</string>
+    <string name="update">Update</string>
+    <string name="your_notes_after_adding_will_appear_hear">Your notes after adding will appear hear.</string>
+    <string name="content_of_note">content of note</string>
+    <string name="dd_mm_yyyy">dd/MM/yyyy</string>
+    <string name="imagenote">ImageNote</string>
+    <string name="image_update_note">image update note</string>
+    <string name="floating_bar">Floating Bar</string>
+    <string name="note_app">NOTE APP</string>
+    <string name="image_add_note">image add note</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="change_colors_background">Change colors background</string>
+    <string name="edited_dd_mm_yyyy">Edited: dd/mm/yyyy</string>
+    <string name="background_color">Background Color</string>
+    <string name="no_result_find">No result find!</string>
+</resources>

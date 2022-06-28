@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <include layout="@layout/toolbar_update_note"/>
+
+    <ScrollView
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgUpdateNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/previewBackgroundColorUpdate"
+                    android:background="@color/ColorBlueWhite"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"/>
+
+                <EditText
+                    android:textStyle="bold"
+                    android:backgroundTint="@android:color/transparent"
+                    android:id="@+id/edtTitleUpdateNote"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:hint="@string/title"
+                    android:textSize="28sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:inputType="text"/>
+            </LinearLayout>
+
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/transparent"
+                android:gravity="start"
+                android:id="@+id/edtContentUpdateNote"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:hint="@string/note"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="200dp"
+                android:autofillHints="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="100dp">
+
+        <ImageView
+            android:id="@+id/imgChangeColorUpdateBackground"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/color_palette"
+            android:contentDescription="@string/change_colors_background" />
+
+        <TextView
+            android:id="@+id/txtDateEditedUpdateNote"
+            android:layout_marginEnd="12dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/edited_dd_mm_yyyy"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

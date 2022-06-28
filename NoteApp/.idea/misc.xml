@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable-v24/color_note_2.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/arrow_back.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/color_note_1.xml" value="0.16" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/color_note_3.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/color_note_4.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/color_note_5.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/color_note_6.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/color_note_7.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/color_note_8.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/custom_toast.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/ic_cancel.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/ic_delete.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/ic_info.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/ic_tick.xml" value="0.1855" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/menu_add_note.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/drawable/menu_main.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout-v28/fragment_grid_view.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/activity_add_note.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/activity_update.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/adapter_list_grid_view.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/adapter_view.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/fragment_color_note.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/fragment_default_search.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/fragment_default_view.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/fragment_grid_view.xml" value="0.23389021479713604" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/fragment_list_view.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/fragment_recycle_view.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/item_image.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/layout_custom_toast.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/toolbar_add_note.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/toolbar_main.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/layout/toolbar_update_note.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/NoteApp/app/src/main/res/menu/menu_custom.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

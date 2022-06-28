@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:minHeight="48dp"
+    android:background="#FFD600">
+
+        <ImageView
+            android:layout_marginStart="12dp"
+            android:id="@+id/menuToolbarMain"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/menu"
+            android:src="@drawable/menu_main" />
+
+        <TextView
+            android:id="@+id/titleToolbarMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/menuToolbarMain"
+            android:text="@string/title_app"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/change_list"
+            android:id="@+id/changeListMain"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/listland" />
+
+        <SearchView
+            android:id="@+id/searchViewNote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/changeListMain"
+            android:background="#FFD600"
+            android:iconifiedByDefault="true"
+            android:queryHint="Search your note..." />
+
+</RelativeLayout>
